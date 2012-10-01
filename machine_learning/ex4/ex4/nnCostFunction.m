@@ -76,6 +76,32 @@ J += lambda / 2 / m * sumTheta;
 %
 
 
+for i = 1 : m,
+    xi = X(i, :);
+    xi = [1; xi'];
+    a_1 = xi;                      % a_1 = xi
+    z_2 = Theta1 * a_1;            % z_1
+    a_2 = sigmoid(z_2);            
+    a_2 = [1; a_2];                % a_2
+    z_3 = Theta2 * a_2;            % z_3
+    a_3 = sigmoid(z_3);            % a_3
+   
+    yi = zeros(num_labels, 1);
+    yivalue = y(i, :);
+    yi(yivalue, 1) = 1;
+
+    delta_3 = a_3 - yi;            % delta_3
+    opa = Theta2' * delta_3;
+    opa = opa(2:end);
+    opb = sigmoidGradient(z_2);
+    delta_2 = opa .* opb;
+   
+    
+    Theta2_grad += delta_3 * a_2' / m;   % big_delta-2
+    Theta1_grad += delta_2 * a_1' / m;
+
+end;
+
 
 % Part 3: Implement regularization with the cost function and gradients.
 %
@@ -84,31 +110,23 @@ J += lambda / 2 / m * sumTheta;
 %               the regularization separately and then add them to Theta1_grad
 %               and Theta2_grad from Part 2.
 %
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 % -------------------------------------------------------------
 
+    Theta2_add = Theta2(:,[2:end]);
+    Theta2_grad += [zeros(num_labels,1) Theta2_add] * lambda / m;
+
+    Theta1_add = Theta1(:,[2:end]);
+    Theta1_grad += [zeros(hidden_layer_size,1) Theta1_add] * lambda / m;
+    
 % =========================================================================
 
 % Unroll gradients
 grad = [Theta1_grad(:) ; Theta2_grad(:)];
+
+
+
+
+
 
 
 end
