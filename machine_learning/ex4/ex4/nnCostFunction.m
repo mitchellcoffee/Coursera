@@ -74,6 +74,9 @@ J += lambda / 2 / m * sumTheta;
 %               over the training examples if you are implementing it for the 
 %               first time.
 %
+
+
+
 % Part 3: Implement regularization with the cost function and gradients.
 %
 %         Hint: You can implement this around the code for
