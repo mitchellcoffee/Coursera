@@ -22,8 +22,16 @@ p = zeros(size(X, 1), 1);
 %
 
 
+X = [ones(m, 1), X];
+X = X';
+A = sigmoid(Theta1 * X);
+A = [ones(size(A(1,:))); A];
+pre = Theta2 * A;
+pre = sigmoid(pre');
+[x, ix] = max(pre, [], 2);
+p = ix;
 
-
+mod(p , 10);
 
 
 
