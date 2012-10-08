@@ -1,2 +1,14 @@
 .DS_Store
 *~
+*.pdf
+octave-core
+
+.cache
+.classpath
+.idea/
+.idea_modules/
+.project
+.id
+.target
+.settings/
+*.jar
