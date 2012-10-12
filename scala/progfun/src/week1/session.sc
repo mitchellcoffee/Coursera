@@ -3,8 +3,6 @@ object session {
   1+3                                             //> res0: Int(4) = 4
   def abs(x: Double) = if (x < 0) -x else x       //> abs: (x: Double)Double
   
-  
-  
   def sqrt(x: Double) = {
 	  def sqrtIter(guess: Double): Double =
 	    if (isGoodEnough(guess)) guess

@@ -129,8 +129,6 @@ class FunSetSuite extends FunSuite {
   
   test("forall test") {
     new TestSets {
-      def f(x: Int): Set = if x
-      assert(forall(s1, x => true), "abc")
     }
   }
   
