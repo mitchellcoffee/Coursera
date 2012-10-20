@@ -1,0 +1,37 @@
+Inside This Issue
+
+From thermometer-busting temperatures to best-ever scores at the hotly contested Olympics, our country has seen a record-breaking summer. And in keeping with it, this edition of Business Brief is dedicated to describing new highs, awards and achievements. 
+
+For example, the heat is on when it comes to document and data management. Record volumes of information challenge businesses of all sizes, especially SMBs, who risk hefty fines for violation of regulations regarding privacy, backup and recovery... 
+
+ Read more
+
+
+
+Industry Insider
+Document Management In The Cloud: 
+A Silver Lining for Small and Medium-Sized Businesses? 
+Most small to medium-sized businesses (SMBs) are feeling the pressure to retain overwhelming amounts of data – and keep it at their fingertips 24x7x365. And it's not just because of Sarbanes-Oxley, HIPAA, the OSH Act and other regulations – which mandate strict rules for the secure backup and recovery of files. It's also due to greater expectations from increasingly demanding customers and the ever-present need to stay ahead of the competition through more comprehensive collaboration and faster decision-making. 
+
+So what's an SMB to do? Many are "looking up." And not to the Heavens, but to the cloud! Cloud solutions promise collaborative document management without any need for investment in staff or infrastructure, easier record management and instant access to records at anytime from anywhere. 
+
+ Read more 
+
+
+
+In the News
+FlexiCapture 10 Captures Accolades, Too
+
+ABBYY’s robust data and document capture system recently garnered top honors from Buyers Laboratory (BLI) and KMWorld Magazine.
+
+BLI, the imaging industry's leading independent authority, named FlexiCapture 10 a BLI Buyers Pick, Outstanding Enterprise Capture Solution: "FlexiCapture 10 is ... ideally suited for organizations processing heavy volumes of documents," says BLI Senior Product Editor Lisa Reider. "However, its scalability allows the program to fit into lower-volume scanning environments as well." 
+
+ Read more
+
+
+
+ABBYY in Action
+FineReader Helps SMBs Overcome Data Storage and Access Challenges
+The advantages of digitally archiving paper documents and data are clear: No more piles of receipts, invoices, bills or faxes; faster information retrieval; easier, less costly storage; and better protection against data loss. 
+
+ABBYY FineReader offers powerful desktop, mobile and cloud solutions designed to help employees at small and medium-sized businesses streamline their workflow to increase productivity and agility. 
